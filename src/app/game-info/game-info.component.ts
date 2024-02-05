@@ -20,9 +20,9 @@ export class GameInfoComponent implements OnInit, OnChanges {
     { title: 'Women', description: 'All girls drink.' },
     { title: 'Heaven', description: 'Put your hands up! The last player drinks.' },
     { title: 'Mate', description: 'Pick a mate. Your mate must always drink when you drink and the other way around.' },
-    { title: 'Thumbmaster', description: '' },
+    { title: 'Thumbmaster', description: 'The player who drew the card must put their thumb on the table before the next five gets picked, or they lose the right. The last person to put their thumb on the table must drink.' },
     { title: 'Men', description: 'All men drink.' },
-    { title: 'Quizmaster', description: '' },
+    { title: 'Quizmaster', description: 'You become the question master, and if anybody answers a question asked by you, they have to drink. This applies to ANY question.' },
     { title: 'Never have I ever...', description: 'Say something you never did. Everyone who did it has to drink.' },
     { title: 'Rule', description: 'Make a rule. Everyone needs to drink when someone breaks the rule.' },
   ];
