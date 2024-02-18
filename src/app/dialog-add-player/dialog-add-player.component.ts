@@ -16,6 +16,7 @@ import { FormsModule } from '@angular/forms';
 export class DialogAddPlayerComponent {
   name: string = '';
 
+
   constructor(public dialog: MatDialog, public dialogRef: MatDialogRef<DialogAddPlayerComponent>) {
 
   }
